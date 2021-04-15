@@ -1,0 +1,101 @@
+.container{		/*about me section*/			    				
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.section-title{  /*about me section*/ /* ay H1 */
+    font-size: 4rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    text-align: center;
+}
+.section-title span{  /*about me section*/
+    color: crimson;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+	font-weight: 600;
+	font-size: 10px;
+}
+.btn:hover{
+    color: white;
+	background-color: crimson;
+}
+/*About Section*/
+#about .about{
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+	padding: 110px 20px;
+	font-size: 10px;
+}
+#about .col-left{ /* el col-left dah div bta3et el soura .. w ana 3shan a3'yr ay soura dayman al3ab f el width w el height*/
+    width: auto;
+    height: auto;
+}
+#about .col-right{
+    width: 100%;
+}
+#about .col-right h2{
+    font-size: 1.9rem;
+    font-weight: 550;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+}
+#about .col-right p{
+	margin-bottom: 20px;
+	font-size: 17px;
+}
+#about .col-right .btn{
+    color: white;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    font-size: 1.8rem;
+}
+.about-img img{
+    height: auto;
+}
+.about-img img{
+    width: 400px;
+}
+@media only screen and (min-width:768px){
+    .btn{
+        font-size: 2rem;
+        padding: 20px 60px;
+    }
+	/*about me */
+    #about .about{
+        flex-direction: row;
+    }
+    #about .col-left{
+        width: 650px;
+        height: 500px;
+        padding-left: 60px;
+    }
+    #about .col-right{
+        text-align: left;
+        padding: 30px;
+    }
+    #about .col-right h1{
+        text-align: left;
+    }
+    /* End about me */
+    
+}

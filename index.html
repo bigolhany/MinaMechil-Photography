@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+  </head>
+
+  <body>
+    <!--Header-->
+    <div id="header">
+      <div class="header container">
+          <div class="nav-bar">
+              <div class="brand">
+                  <a href="#home">
+                    <img src="./images/Untitled-12.png" style="width: 190px;" alt="Logo">
+                  </a>
+              </div>
+              <div class="nav-list">
+                  <div class="hamburger"><div class="bar"></div></div>
+                  <ul>
+                      <li><a href="#home" data-after="Home">Home</a></li> <!--hena el data after dyh 3shan kelmet home masluan tezhar ama ados 3aleha ( hover w hakaza)-->
+                      <li><a href="./about.html" data-after="About">About</a></li>
+                      <li><a href="#movies" data-after="Gallery">Gallery</a></li>
+                      <li><a href="#contacts" data-after="Contact">Contact</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div> 
+  <!-- end of Header-->
+  <!--Slider-->
+  <!--Home Slider-->
+
+ <section id="home">
+  <div class="slider">
+  <div class="myslide fade">
+    <div class="txt">
+      <h1><span></span><span></span><span></span></h1>
+      <p></p>
+    </div>
+    <img src="./1.jpg">
+  </div>
+  
+  <div class="myslide fade">
+    <div class="txt">
+      <h1><span></span><span></span><span></span></h1>
+      <p></p>
+    </div>
+    <img src="./2.jpg" style="opacity: 0.8;">
+  </div>
+  
+  <div class="myslide fade">
+    <div class="txt">
+      <h1><span></span><span></span><span></span></h1>
+      <p></p>
+    </div>
+    <img src="./3.jpg" class="first" style="opacity: 0.8;">
+  </div>
+  
+  <div class="myslide fade">
+    <div class="txt">
+      <h1><span></span><span></span><span></span></h1>
+      <p></p>
+    </div>
+    <img src="./4.jpg" class="first">
+  </div>
+  
+  <div class="myslide fade">
+    <div class="txt">
+      <h1><span></span><span></span><span></span></h1>
+      <p></p>
+    </div>
+    <img src="./5.jpg" class="firsst">
+  </div>
+      
+  <!-- end of Home Slider-->
+  
+  <!-- onclick js -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  <div class="dotsbox" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+  <!-- /onclick js -->
+</div>
+ </section>
+
+  <!--end of Slider-->
+
+
+  <!--Gallery section-->
+
+  <section id="movies">
+      <div class="m-heading">
+        <h1>GALLERY</h1>
+        <p>“Love it. Work it. Live it”</p>
+      </div>
+
+      <div class="movie-container">
+      <a href="babies.html">
+        <div class="movie-box">
+            <div class="movie-image">
+                <img src="./images/babies.jpg" alt="">
+            </div>
+            <div class="movie-call">
+                <p class="wordd">Babies</p>
+            </div>
+        </div>
+      </a>
+        <div class="wrapper">
+          <div class="line"></div>
+          <div class="wordwrapper">
+              <div class="word">or</div>                                        
+          </div>
+        </div>
+      
+
+        <a href="weddings.html"><div class="movie-box">
+            <div class="movie-image">
+                <img src="./images/14.jpg" alt="">
+            </div>
+            <div class="movie-call">
+                <p class="wordd">Weddings</p>
+            </div>
+        </div>
+        </a>
+      </div>
+    
+  
+ </section> 
+ <!-- end of Gallery section-->
+
+
+ <!--Contact section-->
+ <section id="contacts" style="height: px;">
+  <div class="m-heading">
+    <h1>CONTACT</h1>
+    <p>“Feel free to contact me”</p>
+  </div>
+   <div class="contact-info">
+    
+    <div class="card">
+      
+       <i class="icon fas fa-envelope"></i>
+       <div class="card-contact">
+         <h3>Email</h3>
+         <a href="mailto:minaphotography12@gmail.com"><span>minaphotography12@gmail.com</span></a>
+       </div>
+     </div>
+    
+
+     <div class="card">
+      <i class="icon fas fa-phone"></i>
+      <div class="card-contact">
+        <h3>Phone Number</h3>
+        <a href="tel:+201120500886"><span>+201120500886</span></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <i class="icon fas fa-map-marker-alt"></i>
+      <div class="card-contact">
+        <h3>Location</h3>
+        <span>Shoubra Masr,Egypt</span>
+      </div>
+    </div>
+
+   </div>
+
+ </section>
+
+ <!-- end of Contact section-->
+
+ <!--Footer -->
+<section id="footer">
+ <footer>
+  <a href="#home">
+    <img src="./images/Untitled-12.png" style="width: 190px;" alt="Logo">
+  </a>
+   <p style="width: auto;">“There is one thing the photograph must contain, the humanity of the moment.”</p>
+
+   <div class="social-icons">
+     <a href="https://www.facebook.com/Mina-mechil-photography-103909558097914" target="_blank"><i class="fab fa-facebook-f"></i></a>
+     <a href="https://www.instagram.com/minamechilphotography/" target="_blank"><i class="fab fa-instagram"></i></a>
+   </div>
+   <p class="copyright">copyright by Mina mechil photoghraphy.2021</p>
+ </footer>
+</section>
+
+<!-- <div class="a-social-b">
+  <a href="#"><i class="fab fa-facebook-f"></i></a>
+  <a href="#"><i class="fab fa-twitter"></i></a>
+  <a href="#"><i class="fab fa-instagram"></i></a>
+  <a href="#"><i class="fab fa-youtube"></i></a>
+</div>
+
+--> 
+
+ <!-- end of Footer -->
+
+
+  
+  <script src="./javaScript.js"></script>
+  
+  </body>
+</html>

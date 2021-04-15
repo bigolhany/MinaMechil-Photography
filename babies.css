@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Train+One&display=swap');
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.gallery .heading{
+    width: 50%;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    color: blanchedalmond;
+}
+
+.gallery .heading h3{
+    font-size: 5em;
+    font-weight: bolder;
+    border-bottom: 3px solid blanchedalmond;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gallery .heading h3 span{
+    font-weight: 100;
+}
+
+.gallery .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gallery .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.gallery .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:769px){
+    .gallery .box{
+        flex-direction: column;
+    }
+    .gallery .box .dream{
+        width: 100%;
+    }
+    .gallery .heading h3{
+      display: inline-block;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      font-size: 3em;
+    }
+}
